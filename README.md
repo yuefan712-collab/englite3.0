@@ -31,6 +31,24 @@ We are not simplifying the *meaning*; we are optimizing the *rendering*.
 ---
 
 ## 🚀 Quick Start
+### Example Usage
+
+```python
+from englite import Converter
+
+engine = Converter(mode='native_26')
+
+text = "The knight looked at the beautiful vision at night."
+result = engine.translate(text)
+
+print(result)
+```
+
+Output:
+```
+ŧe NIIT luuk-ed at ŧe BYUU-ti-ful VIZ-ion at NIIT.
+```
+
 🔬 The Logic (Technical Specs)
 EngLite operates on three layers of transformation:
 
