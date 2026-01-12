@@ -53,9 +53,15 @@ Output:
 EngLite operates on three layers of transformation:
 
 1. Phonetic Layer (The 1:1 Rule)
-We eliminate "Zombie Letters" (Silent letters). | Traditional | EngLite 3.0 | Logic | | :--- | :--- | :--- | | Daughter | DOT-or | gh removed, au -> O | | Phone | FOO-n | ph -> F, o_e -> OO | | Cat | KAT | c is hard -> K |
+We eliminate "Zombie Letters" (Silent letters).
+| Traditional | EngLite 3.0 | Logic |
+| :--- | :--- | :--- |
+| Daughter | DOT-or | gh removed, au -> O |
+| Phone | FOO-n | ph -> F, o_e -> OO |
+| Cat | KAT | c is hard -> K |
 
-2. Semantic Layer (Kor-Bloks)
+
+3. Semantic Layer (Kor-Bloks)
 We use Visual Anchors (Capitalized Roots) to preserve meaning.
 
 VIZ (to see) -> VIZ-ion, in-VIZ-abl, re-VIZ
